@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel = "shortcut icon" href = "icon.ico" />
+	
+	<meta charset="utf-8" />
+	
+	<title> Atestat Informatică </title>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<header id="header">
+	</br>
+	<img src="logo.png">
+	</br>
+</header>
+
+<body>
+
+
+	<div id="menu">
+		
+	<ul>
+	
+		<li> <a href="home.html"> Home </a> </li>
+		<li> <a href="site.html"> Șiruri </a> </li>
+		<li> <a href="grafic.html"> Funcții </a> </li>
+			
+		</ul>
+	
+	</div>
+	
+	</br> </br>
+	<div id="chart_div" style = "display: block;" > </div>
+	
+
+	</br></br>
+	
+	<div id="content_div" style = "display: block;">
+	
+	</br></br>
+	
+	<div id="instructiuni" class="dropdown">
+		Instrucțiuni
+		
+		<img src="arrow.png" id="arrow1" class="arrow">
+		
+	</div>
+	
+	</br>
+	
+	<div id="instruct_div" class="dropdowned" style = "display: none;">
+	
+		<p>
+			Această pagină a fost creată pentru a studia progresiile/șirurile matematice.
+			Alegeți varianta dorită apoi completați câmpurile de setări și apăsați "Generează" <br/>
+			Exemple : Progresie Aritmetică : a1 = 2, r = 3 <button type="button" id="aritex"> Generează </button> <br/>
+				  Progresie Geometrică : b1 = 1/2, q = 2/3 <button type="button" id="geomex"> Generează </button> <br/>
+				  Șir Recursiv : x1 = 1, xn = 2*x + 5 , unde x este termenul precedent lui xn <button type="button" id="sirex1"> Generează </button> <br/>
+				  Șir Recursiv : x1 = 9, xn = sqrt( pow(x,2) + 3*x) <button type="button" id="sirex2"> Generează </button> <br/>
+				  Șir Recursiv : x1 = 7, xn = log(7*pow(x,i) + 7*sin(x),7),  unde i este indicele lui x  <button type="button" id="sirex3"> Generează </button> <br/>
+				  Șir Recursiv : x1 = 3, xn = x/i <button type="button" id="sirex4"> Generează </button> <br/>
+		</p>
+		
+	</div>
+		
+	<br/> <br/> 
+	
+	
+	<div id="arit" class="dropdown">
+	
+		Progresie Aritmetică
+		
+		<img src="arrow.png" id="arrow2" class="arrow">
+		
+	</div>
+	
+	</br>
+	
+	<div id="arit_div" class="dropdowned" style = "display: none;">
+		
+		</br>
+		
+		Primul termen a1 = <input id="a1" type="text"/>
+		
+		</br></br>
+		
+		Rația r = <input id="r" type="text" />
+		
+		</br></br>
+		
+		Numarul de termeni N = <input id="n1" type="text" />
+		
+		</br></br>
+		
+		<button type="button" id="butarit"> Generează </button>
+		
+	</div>
+	
+	</br></br>
+	
+	<div id="geom" class="dropdown">
+	
+		Progresie Geometrică
+		
+		<img src="arrow.png" id="arrow3" class="arrow">
+		
+	</div>
+	
+	</br>
+	
+	<div id="geom_div" class="dropdowned" style = "display: none;">
+		
+		</br>
+		
+		Primul termen b1 = <input id="b1" type="text"/>
+		
+		</br></br>
+		
+		Rația q = <input id="q" type="text" />
+		
+		</br></br>
+		
+		Numarul de termeni N = <input id="n2" type="text" />
+		
+		</br></br>
+		
+		<button type="button" id="butgeom"> Generează </button>
+		
+	</div>
+	
+	</br></br>
+	
+	<div id="sir" class="dropdown">
+	
+		Șir Recurent
+		
+		<img src="arrow.png" id="arrow4" class="arrow">
+		
+	</div>
+	
+	</br>
+	
+	<div id="sir_div" class="dropdowned" style = "display: none;">
+		
+		</br>
+		
+		Primul termen x1 = <input id="x1" type="text"/>
+		
+		</br></br>
+		
+		Formula termenului general xn = <input id="formula" type="text" />
+		
+		</br></br>
+		
+		Numarul de termeni N = <input id="n3" type="text" />
+		
+		</br></br>
+		
+		<button type="button" id="butsir"> Generează </button>
+		
+		</br></br>
+		
+		Monoton <button type="button" id="butmon"> Verifică </button>
+		
+		</br></br>
+		
+		<p id="rez_mon"> </p>
+		
+		</br></br>
+		
+		Mărginit <button type="button" id="butmar"> Verifică </button>
+
+		</br></br>
+		
+		<p id="rez_mar"> </p>
+		
+		</br></br>
+		
+		Convergent <button type="button" id="butcon"> Verifică </button>
+		
+		</br></br>
+		
+		<p id="rez_con"> </p>
+		
+		</br></br>
+		
+	</div>
+	
+	</br></br>
+	
+	</div>
+
+	
+	
+	<script src="code.js"></script>
+	
+</body>
+
+</html>

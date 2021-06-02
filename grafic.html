@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel = "shortcut icon" href = "icon.ico" />
+	
+	<meta charset="utf-8" />
+	
+	<title> Atestat Informatică </title>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<header id="header">
+	</br>
+	<img src="logo.png">
+	</br>
+</header>
+
+
+<body>
+	
+
+	<div id="menu">
+		
+	<ul>
+	
+		<li> <a href="home.html"> Home </a> </li>
+		<li> <a href="site.html"> Șiruri </a> </li>
+		<li> <a href="grafic.html"> Funcții </a> </li>
+			
+		</ul>
+	
+	</div>
+	
+	</br> </br>
+	
+	<div id="chart_div" style = "display: block;" > </div>
+	
+	<div id="homepage"> 
+
+	
+	</br></br>
+	
+	
+	<div id="content_div" style = "display: block;">
+	
+		</br></br>
+	
+		<div id="instructiuni" class="dropdown">
+		
+			Instrucțiuni
+		
+		<img src="arrow.png" id="arrow1" class="arrow">
+		
+		</div>
+		
+		</br>
+	
+		<div id="instruct_div" class="dropdowned" style = "display: none;">
+	
+			<p>
+			
+				Această pagina a fost creată cu scopul de a studia analiza matematică într-un mod modern, digitalizat. Graficul de mai sus poate reprezenta graficul oricărei funcții cât timp aceasta este scrisă corect. 
+			
+			</p>
+			
+			Reguli de scriere:
+			</br>
+			Adunarea și scăderea se notează cu +, respectiv cu -, iar înmulțirea și împărțirea cu *, respectiv /. Ex: f(x)=2x+1 se scrie f(x)=2*x+1
+			</br>
+			Funcțiile polinomiale și exponențiale se notează cu funcția pow. Ex: f(x)=x^2 se scrie f(x)=pow(x,2).
+			</br>
+			Funcțiile trigonometrice și logaritmice se noteaza mereu cu paranteză. Ex: sin(x), ln(x),etc;
+			</br>
+			Radicalul este sqrt(x).
+			</br></br>
+		</div>
+	
+		</br></br>
+		
+		<div id="parametrii" class="dropdown">
+			
+			Parametrii funcției
+			
+			<img src="arrow.png" id="arrow00" class="arrow">
+	
+		</div>
+		
+		</br>
+		
+		<div id="par_div" style="display: none;" class="dropdowned">
+		
+			</br>
+		
+			f(x) = <input id="formula" type="text">
+		
+			</br></br>
+		
+			Domeniul de definiție: de la <input id="s" type="text"> la <input id="f" type="text">
+		
+			</br></br>
+		
+			<button type="button" id="grafgen"> Generează grafic </button>
+		
+			</br></br>
+			
+		</div>
+		
+		</br></br>
+		
+		<div id="calcul_limite"  class="dropdown">
+		
+			Calcul de limite 
+			
+			<img src="arrow.png" id="arrow1" class="arrow">
+			
+		</div>
+		
+		</br>
+		
+		<div id="lim_div" style="display: none;" class="dropdowned">
+			
+			</br>
+			
+			Limită când x tinde la <input id="lim" type="text">
+			
+			</br></br>
+			
+			<button type="button" id="butlim">Calculează</button>
+			
+		</br></br>
+		
+		<div> Valoarea limitei este:<p id="plim"> </p> </div> 
+			
+		</div>		
+		
+		</br></br>
+		
+		<div id="calcul_derivate"  class="dropdown">
+		
+			Calcul de derivate 
+			
+			<img src="arrow.png" id="arrow2" class="arrow">
+			
+		</div>
+		
+		</br>
+		
+		<div id="deriv_div" style="display: none;" class="dropdowned">
+			
+			</br>
+			
+			Valoarea derivatei când x are valoarea <input id="deriv" type="text">
+			
+			</br></br>
+			
+			<button type="button" id="butderiv">Calculează</button>
+			
+		</br></br>
+		
+		<div> Valoarea derivatei este:<p id="rez_deriv"> </p> </div> 
+			
+		</div>		
+		
+		</br></br>
+		
+		<div id="calcul_integrale"  class="dropdown">
+		
+			Calcul de integrale definite 
+			
+			<img src="arrow.png" id="arrow3" class="arrow">
+			
+		</div>
+		
+		</br>
+
+		<div id="integral_div" style="display: none;" class="dropdowned">
+		
+			</br>
+			
+			Integrală de la <input id="a" type="text"> la <input id="b" type="text"> 
+			
+			</br></br>
+			
+			<button type="button" id="integral"> Calculeaza </button>
+			
+			</br></br>
+				
+			Valoarea integralei este:<p id="rez_integral"> </p>
+			
+		</div>	
+		
+		</br></br>
+		
+	
+	</div>
+
+	
+	
+	<script src="code2.js"></script>
+	
+</body>
+
+</html>

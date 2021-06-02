@@ -1,0 +1,223 @@
+
+
+a{
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+button {
+
+	background-color: solid white;
+	border-bottom: 2px solid black;
+	border-radius: 26px;
+	width: 150px;
+	height: 24px;
+	
+
+}
+
+input{
+	width: 100px;
+	height: 25px;
+	border-radius: 500px;
+	background-color: solid white;
+}
+
+.arrow {
+	margin-top: 2px;
+	display: inline-block;
+	width: 20px;
+	height: 45%;
+	
+
+
+
+}
+
+.dropdown {
+	text-align: center;
+	background-color: #f8f8ff;
+	border-radius: 10px;
+	display: inline-block;
+	width: 700px;
+	height: 30px;
+	border: 1px solid black;
+	display: inline-block;
+	
+
+}
+
+.dropdown2 {
+	text-align: center;
+	background-color: #f8f8ff;
+	border-radius: 10px;
+	display: inline-block;
+	width: 400px;
+	height: 30px;
+	border: 1px solid black;
+	display: inline-block;
+	
+
+}
+
+
+.dropdown3 {
+	text-align: center;
+	background-color: #f8f8ff;
+	border-radius: 10px;
+	display: inline-block;
+	width: 85%;
+	height: 30px;
+	border: 1px solid black;
+	display: inline-block;
+	
+
+}
+
+
+.dropdown4 {
+	text-align: center;
+	background-color: #f8f8ff;
+	border-radius: 10px;
+	display: inline-block;
+	width: 85%;
+	height: 30px;
+	border: 1px solid black;
+	display: inline-block;
+	
+
+}
+
+.dropdowned {
+	background-color: #f8f8ff;
+	border-radius: 20px;
+	display: inline-block;
+	width: 700px;
+	height: 1%;
+	border: 1px solid black;
+	
+
+}
+
+.dropdowned2 {
+	background-color: #f8f8ff;
+	border-radius: 20px;
+	display: inline-block;
+	width: 85%;
+	height: 1%;
+	border: 1px solid black;
+	
+
+}
+.dropdowned3 {
+	background-color: #f8f8ff;
+	border-radius: 20px;
+	display: inline-block;
+	width: 85%;
+	height: 1%;
+	border: 1px solid black;
+	
+
+}
+
+.dropdowned4 {
+	background-color: #f8f8ff;
+	border-radius: 20px;
+	display: inline-block;
+	width: 85%;
+	height: 1%;
+	border: 1px solid black;
+	
+
+}
+
+#sir_div {
+	
+	height: 500px;
+	
+}
+#header {
+	background-color: white;
+	text-align:center;
+	border-radius: 26px;
+}
+#description {
+	background-color: white;
+	display: inline-block;
+	width: 450px;
+	height: 50%;
+	border-radius: 26px;
+
+}
+
+body {
+	font-family: helvetica;
+	font-size: 14px; 
+	text-align:center;
+	background-color : #6EBFC2;
+}
+
+#menu {
+	display: inline-block;
+	margin-top : 25px;
+	margin-right: 31px;
+}
+#menu ul {
+	
+	list-style : none;
+
+}
+
+#menu ul li {
+	
+	background-color : white;
+	width: 150px;
+	border: 1px solid cadetblue;
+	height: 50px;
+	line-height: 50px;
+	text-align : center;
+	border-radius: 26px;
+	color : purple;
+	float : left;
+	position: relative;
+}
+#chart_div {
+	width: 900px; 
+	height: 500px;
+	border: 1px solid black;
+	
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-top: auto;
+	
+}
+
+#content_div {
+	
+	border-radius : 26px;
+	background-color : lightblue;
+	text-align : center;
+}
+
+#res1 {
+
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+#res2 {
+
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
